@@ -1,10 +1,10 @@
-<img align="left" width="100" height="100" src="https://github.com/cusp-london/vizent/raw/main/docs/_static/vizent_logo_thumbnail.png">
+<img align="left" width="100" height="100" src="https://github.com/peterbaudains/vizent/raw/main/docs/_static/vizent_logo_thumbnail.png">
 
 # vizent
 
 <br/>   
  
-![build](https://github.com/cusp-london/vizent/actions/workflows/unit-tests-minimal.yml/badge.svg)
+![build](https://github.com/peterbaudains/vizent/actions/workflows/unit-tests-minimal.yml/badge.svg)
 
 > A python library for visualising bivariate data using glyphs and node-link diagrams with matplotlib
 
@@ -24,7 +24,7 @@ The vizent library provides an interface to matplotlib axes and figures that sup
 
 The library also provides functionality to plot vizent glyphs and networks edges with a map background (requires [Cartopy](https://scitools.org.uk/cartopy/docs/latest/)) or using an image provided by the user (requires [pillow](https://pillow.readthedocs.io/en/stable/)).
 
-The [gallery](https://cusplondon.ac.uk/vizent/gallery) gives example plots demonstrating the library capability. A more detailed tutorial is also available [here](https://medium.com/nightingale/rising-or-falling-visualizing-the-trends-in-the-daily-covid-19-situation-e5ae3044fcef).
+The [gallery](https://vizent.sites.er.kcl.ac.uk//gallery) gives example plots demonstrating the library capability. A more detailed tutorial is also available [here](https://medium.com/nightingale/rising-or-falling-visualizing-the-trends-in-the-daily-covid-19-situation-e5ae3044fcef).
 
 ## Installation
 
@@ -57,7 +57,7 @@ Optional dependencies:
 
 ## Using vizent
 
-Library documentation is available at at: https://cusplondon.ac.uk/vizent
+Library documentation is available at at: https://vizent.sites.er.kcl.ac.uk/
 
 ## Glyph Designs
 
@@ -65,37 +65,37 @@ The available glyph shape designs are shown here in full. Value increases with f
 
 ### sine
 
-![sine glyphs](https://github.com/cusp-london/vizent/raw/main/docs/_static/glyphs/sine.png "sine glyphs")
+![sine glyphs](https://github.com/peterbaudains/vizent/raw/main/docs/_static/glyphs/sine.png "sine glyphs")
 
 ### saw
 
-![saw glyphs](https://github.com/cusp-london/vizent/raw/main/docs/_static/glyphs/saw.png "saw glyphs")
+![saw glyphs](https://github.com/peterbaudains/vizent/raw/main/docs/_static/glyphs/saw.png "saw glyphs")
 
 ### reverse_saw
 
-![reverse_saw glyphs](https://github.com/cusp-london/vizent/raw/main/docs/_static/glyphs/reverse_saw.png "reverse_saw glyphs")
+![reverse_saw glyphs](https://github.com/peterbaudains/vizent/raw/main/docs/_static/glyphs/reverse_saw.png "reverse_saw glyphs")
 
 ### square
 
-![square glyphs](https://github.com/cusp-london/vizent/raw/main/docs/_static/glyphs/square.png "square glyphs")
+![square glyphs](https://github.com/peterbaudains/vizent/raw/main/docs/_static/glyphs/square.png "square glyphs")
 
 ### triangular
 
-![triangular glyphs](https://github.com/cusp-london/vizent/raw/main/docs/_static/glyphs/triangular.png "triangular glyphs")
+![triangular glyphs](https://github.com/peterbaudains/vizent/raw/main/docs/_static/glyphs/triangular.png "triangular glyphs")
 
 ### concave
 
-![concave glyphs](https://github.com/cusp-london/vizent/raw/main/docs/_static/glyphs/concave.png "concave glyphs")
+![concave glyphs](https://github.com/peterbaudains/vizent/raw/main/docs/_static/glyphs/concave.png "concave glyphs")
 
 ### star
 
-![star glyphs](https://github.com/cusp-london/vizent/raw/main/docs/_static/glyphs/star.png "star glyphs")
+![star glyphs](https://github.com/peterbaudains/vizent/raw/main/docs/_static/glyphs/star.png "star glyphs")
 
 ## Edge Designs
 
 Default sample lines for a variety of frequency values are shown below. The left-most line is used when the data contains numpy.nan (i.e. for missing data).
 
-![Sample lines](https://github.com/cusp-london/vizent/raw/main/docs/_static/lines_sample.png)
+![Sample lines](https://github.com/peterbaudains/vizent/raw/main/docs/_static/lines_sample.png)
 
 ## Examples
 
@@ -120,7 +120,7 @@ fig.axes[1].set_xlabel('x')
 fig.axes[1].set_ylabel('y')
 ```
 
-![scatterplot image](https://github.com/cusp-london/vizent/raw/main/docs/_build/_images/gallery-basic-scatterplot_1_1.png "scatterplot image")
+![scatterplot image](https://github.com/peterbaudains/vizent/raw/main/docs/_build/_images/gallery-basic-scatterplot_1_1.png "scatterplot image")
 
 ### Create a vizent plot with edges:
 
@@ -168,9 +168,9 @@ fig = vizent_plot(x_values=x_values,
                   scale_x=15)
 ```
 
-![vizent plot](https://github.com/cusp-london/vizent/raw/main/docs/_build/_images/vizent_plot_with_edges_test.png "vizent plot")
+![vizent plot](https://github.com/peterbaudains/vizent/raw/main/docs/_build/_images/vizent_plot_with_edges_test.png "vizent plot")
 
-Other examples, including those using background maps for geospatial data can be found at https://cusplondon.ac.uk/vizent/gallery.
+Other examples, including those using background maps for geospatial data can be found at https://vizent.sites.er.kcl.ac.uk//gallery.
 
 ## Release History
 
@@ -179,7 +179,7 @@ Other examples, including those using background maps for geospatial data can be
 
 ## Meta
 
-[vizent on github](https://github.com/cusp-london/vizent)
+[vizent on github](https://github.com/peterbaudains/vizent)
 
 [vizent on PyPI](https://pypi.org/project/vizent)
 

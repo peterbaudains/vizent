@@ -20,7 +20,7 @@ Or from the latest version on GitHub:
 
 .. code-block:: 
 
-    pip install git+https://github.com/cusp-london/vizent
+    pip install git+https://github.com/peterbaudains/vizent
 
 `vizent on PyPI <https://pypi.org/project/vizent>`__
 

@@ -11,8 +11,8 @@ sys.path.insert(0, os.path.abspath('../vizent/'))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'vizent'
-copyright = '2023, CUSP London, Lucy McLaughlin'
-author = 'CUSP London, Lucy McLaughlin'
+copyright = '2023, Peter Baudains, Nicolas Holliman, Lucy McLaughlin'
+author = 'Peter Baudains, Nicolas Holliman, Lucy McLaughlin'
 release = '1.1.2'
 
 # -- General configuration ---------------------------------------------------
@@ -45,19 +45,14 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/cusp-london/vizent",
+            "url": "https://github.com/peterbaudains/vizent",
             "icon": "fab fa-github-square fa-xl",
-        },
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/cusplondon",
-            "icon": "fab fa-twitter-square fa-xl",
         },
     ]
 }
 
 
-pypi='https://github.com/cusp-london/vizent/actions/workflows/unit-tests-minimal.yml/badge.svg'
+pypi='https://github.com/peterbaudains/vizent/actions/workflows/unit-tests-minimal.yml/badge.svg'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

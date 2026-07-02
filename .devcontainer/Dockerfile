@@ -10,6 +10,10 @@ RUN apt-get update \
     && wget https://github.com/jgm/pandoc/releases/download/3.1.6/pandoc-3.1.6-1-amd64.deb
 RUN dpkg -i pandoc-3.1.6-1-amd64.deb
 
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
+
+
 # Install cartopy dependencies
 RUN apt -y install libgeos-dev \
                    gcc \

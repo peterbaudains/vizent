@@ -52,7 +52,7 @@ Release History
 References
 ##########
 
-`vizent on github <https://github.com/cusp-london/vizent>`__
+`vizent on github <https://github.com/peterbaudains/vizent>`__
 
 `vizent on PyPI <https://pypi.org/project/vizent>`__
 
